@@ -1,2 +1,1 @@
-# Proyecto02
-actividad clase 2/11
+proyecto que contiene ejercicios y clases de Java
