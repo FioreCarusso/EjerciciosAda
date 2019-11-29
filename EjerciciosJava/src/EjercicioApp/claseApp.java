@@ -15,8 +15,8 @@ public class claseApp {
 		Recaudacion[] año = new Recaudacion[360]; // 1) creo array de 360 lugares de clase Recaudacion
 
 		for (int i = 0; i < año.length; i++) { // 2)
-			int tarjeta = claseApp.generateRandomInt(100);
-			int efectivo = claseApp.generateRandomInt(100); //
+			int tarjeta = claseApp.generateRandomInt(50);
+			int efectivo = claseApp.generateRandomInt(50); //
 			año[i] = new Recaudacion(tarjeta, efectivo);
 		}
 
